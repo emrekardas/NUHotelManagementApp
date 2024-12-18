@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4F260F2D04821A00E6B941 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4F260E2D04821A00E6B941 /* GoogleSignIn */; };
+		7D4F26112D04821A00E6B941 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4F26102D04821A00E6B941 /* GoogleSignInSwift */; };
+		7D4F26152D0483B800E6B941 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4F26142D0483B800E6B941 /* FirebaseAnalytics */; };
+		7D4F26172D0483B800E6B941 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7D4F26162D0483B800E6B941 /* FirebaseCore */; };
+		7DACBEC82D04605000A3D149 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBEC72D04605000A3D149 /* FirebaseAuth */; };
+		7DACBECA2D04605000A3D149 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBEC92D04605000A3D149 /* FirebaseAuthCombine-Community */; };
+		7DACBECC2D04605000A3D149 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBECB2D04605000A3D149 /* FirebaseFirestore */; };
+		7DACBECE2D04605000A3D149 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBECD2D04605000A3D149 /* FirebaseFirestoreCombine-Community */; };
+		7DACBED02D04605000A3D149 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBECF2D04605000A3D149 /* FirebaseStorage */; };
+		7DACBED22D04605000A3D149 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7DACBED12D04605000A3D149 /* FirebaseStorageCombine-Community */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D4BB3402D0340DF0033B05F /* NUHotelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NUHotelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7D4F26182D0484BA00E6B941 /* Exceptions for "NUHotelManagement" folder in "NUHotelManagement" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7D4BB33F2D0340DF0033B05F /* NUHotelManagement */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7D4BB3422D0340DF0033B05F /* NUHotelManagement */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7D4F26182D0484BA00E6B941 /* Exceptions for "NUHotelManagement" folder in "NUHotelManagement" target */,
+			);
+			path = NUHotelManagement;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4BB33D2D0340DF0033B05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DACBEC82D04605000A3D149 /* FirebaseAuth in Frameworks */,
+				7DACBECE2D04605000A3D149 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				7DACBECA2D04605000A3D149 /* FirebaseAuthCombine-Community in Frameworks */,
+				7D4F26112D04821A00E6B941 /* GoogleSignInSwift in Frameworks */,
+				7DACBED02D04605000A3D149 /* FirebaseStorage in Frameworks */,
+				7DACBED22D04605000A3D149 /* FirebaseStorageCombine-Community in Frameworks */,
+				7D4F26172D0483B800E6B941 /* FirebaseCore in Frameworks */,
+				7DACBECC2D04605000A3D149 /* FirebaseFirestore in Frameworks */,
+				7D4F260F2D04821A00E6B941 /* GoogleSignIn in Frameworks */,
+				7D4F26152D0483B800E6B941 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4BB3372D0340DF0033B05F = {
+			isa = PBXGroup;
+			children = (
+				7D4BB3422D0340DF0033B05F /* NUHotelManagement */,
+				7D4BB3412D0340DF0033B05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4BB3412D0340DF0033B05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BB3402D0340DF0033B05F /* NUHotelManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4BB33F2D0340DF0033B05F /* NUHotelManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4BB34E2D0340E00033B05F /* Build configuration list for PBXNativeTarget "NUHotelManagement" */;
+			buildPhases = (
+				7D4BB33C2D0340DF0033B05F /* Sources */,
+				7D4BB33D2D0340DF0033B05F /* Frameworks */,
+				7D4BB33E2D0340DF0033B05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7D4BB3422D0340DF0033B05F /* NUHotelManagement */,
+			);
+			name = NUHotelManagement;
+			packageProductDependencies = (
+				7DACBEC72D04605000A3D149 /* FirebaseAuth */,
+				7DACBEC92D04605000A3D149 /* FirebaseAuthCombine-Community */,
+				7DACBECB2D04605000A3D149 /* FirebaseFirestore */,
+				7DACBECD2D04605000A3D149 /* FirebaseFirestoreCombine-Community */,
+				7DACBECF2D04605000A3D149 /* FirebaseStorage */,
+				7DACBED12D04605000A3D149 /* FirebaseStorageCombine-Community */,
+				7D4F260E2D04821A00E6B941 /* GoogleSignIn */,
+				7D4F26102D04821A00E6B941 /* GoogleSignInSwift */,
+				7D4F26142D0483B800E6B941 /* FirebaseAnalytics */,
+				7D4F26162D0483B800E6B941 /* FirebaseCore */,
+			);
+			productName = NUHotelManagement;
+			productReference = 7D4BB3402D0340DF0033B05F /* NUHotelManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4BB3382D0340DF0033B05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					7D4BB33F2D0340DF0033B05F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D4BB33B2D0340DF0033B05F /* Build configuration list for PBXProject "NUHotelManagement" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4BB3372D0340DF0033B05F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7D4F260D2D04821A00E6B941 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7D4BB3412D0340DF0033B05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4BB33F2D0340DF0033B05F /* NUHotelManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4BB33E2D0340DF0033B05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4BB33C2D0340DF0033B05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D4BB34C2D0340E00033B05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4BB34D2D0340E00033B05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4BB34F2D0340E00033B05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NUHotelManagement/NUHotelManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NUHotelManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3ZPYYYMNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NUHotelManagement/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to show you accurate weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show you accurate weather information for the hotel area.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emrekardas.NUHotelManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4BB3502D0340E00033B05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NUHotelManagement/NUHotelManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NUHotelManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = Q3ZPYYYMNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NUHotelManagement/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to show you accurate weather information.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show you accurate weather information for the hotel area.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emrekardas.NUHotelManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4BB33B2D0340DF0033B05F /* Build configuration list for PBXProject "NUHotelManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4BB34C2D0340E00033B05F /* Debug */,
+				7D4BB34D2D0340E00033B05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4BB34E2D0340E00033B05F /* Build configuration list for PBXNativeTarget "NUHotelManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4BB34F2D0340E00033B05F /* Debug */,
+				7D4BB3502D0340E00033B05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D4F260D2D04821A00E6B941 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D4F260E2D04821A00E6B941 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4F260D2D04821A00E6B941 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		7D4F26102D04821A00E6B941 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D4F260D2D04821A00E6B941 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		7D4F26142D0483B800E6B941 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+		7D4F26162D0483B800E6B941 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		7DACBEC72D04605000A3D149 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7DACBEC92D04605000A3D149 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		7DACBECB2D04605000A3D149 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7DACBECD2D04605000A3D149 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		7DACBECF2D04605000A3D149 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		7DACBED12D04605000A3D149 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7DACBEC62D04605000A3D149 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7D4BB3382D0340DF0033B05F /* Project object */;
+}
