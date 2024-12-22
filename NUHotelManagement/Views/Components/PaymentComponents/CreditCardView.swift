@@ -220,3 +220,13 @@ struct CreditCardBack: View {
         }
     }
 } 
+
+
+#Preview{
+    CreditCardView(
+        cardNumber: .constant("1234567890123456"),
+        cardHolderName: .constant("JOHN DOE"),
+        expiryDate: .constant("12/24"),
+        cvv: .constant("123")
+    )
+}
