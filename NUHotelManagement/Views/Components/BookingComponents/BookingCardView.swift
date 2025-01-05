@@ -130,5 +130,3 @@ struct BookingDetailRow: View {
     }
 }
 
-// Yeni View: Servis İstekleri için
-

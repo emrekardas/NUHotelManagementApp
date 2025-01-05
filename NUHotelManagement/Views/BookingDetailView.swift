@@ -16,6 +16,13 @@ struct BookingDetailView: View {
     @State private var alertMessage = ""
     @Environment(\.presentationMode) var presentationMode
     
+    // Credit Card States
+    @State private var showCreditCardSheet = false
+    @State private var cardNumber = ""
+    @State private var cardHolderName = ""
+    @State private var expiryDate = ""
+    @State private var cvv = ""
+    
     // Booking oluşturma için gerekli state'ler
     @State private var startDate = Date()
     @State private var endDate = Date().addingTimeInterval(24 * 60 * 60)
@@ -173,7 +180,7 @@ struct BookingDetailView: View {
             
             Section {
                 Button(action: {
-                    createBooking(for: room)
+                    showCreditCardSheet = true
                 }) {
                     Text("Confirm Booking")
                         .frame(maxWidth: .infinity)
@@ -182,6 +189,26 @@ struct BookingDetailView: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
+            }
+        }
+        .sheet(isPresented: $showCreditCardSheet) {
+            NavigationView {
+                CreditCardView(
+                    cardNumber: $cardNumber,
+                    cardHolderName: $cardHolderName,
+                    expiryDate: $expiryDate,
+                    cvv: $cvv
+                )
+                .navigationTitle("Payment Details")
+                .navigationBarItems(
+                    leading: Button("Cancel") {
+                        showCreditCardSheet = false
+                    },
+                    trailing: Button("Pay") {
+                        createBooking(for: room)
+                        showCreditCardSheet = false
+                    }
+                )
             }
         }
     }
